@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:rentlynci2.database.windows.net,1433;Initial Catalog=Rently2016;Persist Security Info=False;User ID=tino7pezzi;Password=Bomber77;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dell\\Documents\\Visual\ Studio\ 2015\\Projects\\Rently\ latest\ 7\\Rently\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection_DatabasePublish-Web.config Connection String" description="DefaultConnection_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="DefaultConnection_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\dell\\Documents\\Visual\ Studio\ 2015\\Projects\\Rently\ latest\ 7\\Rently\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
